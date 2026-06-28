@@ -1,4 +1,4 @@
-#This project aimed to port transformer Grouppose into MMLab's MMpose engine, to enable training and testing via MMLab's native tools. 
+# This project aimed to port transformer Grouppose into MMLab's MMpose engine, to enable training and testing via MMLab's native tools. 
 This approach was inspired by adoption of EDPose model.
 The main jobs carried out include conversion of checkpoints from grouppose to MMlab compatible naming. Building workflow of the model via configs. And lastly, cuda compatibility configuration for later RTX models(on which it was tested on for coco val 2017).
 
